@@ -1,0 +1,140 @@
+.upper-title {
+    font-family: Raleway;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 3%;
+        vertical-align: middle;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+
+ul {list-style-type: none}
+
+/* nav-list */
+.nav-list a{
+    font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-decoration: none; 
+
+}
+
+.nav-list a:hover {
+    color: #404BBF;
+        text-decoration: none;
+}
+
+.nav-list .studio:active {
+    color: #404BBF;
+        text-decoration: none;
+        text-underline-offset: 10px;
+}
+
+
+
+.contact-info a {
+    font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #404BBF;
+        text-decoration: none;
+}
+
+h1 {
+    font-family: Roboto;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: 2%;
+        text-align: center;
+}
+/* button */
+.button {
+    font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 4%;
+        vertical-align: middle;
+        background-color: #4D5AE5;
+        border: #4D5AE5;
+        cursor: pointer;
+}
+
+.button:hover {
+    background-color:#404BBF;
+        text-decoration: none;
+}
+.button:active {
+    background-color: #404BBF;
+        text-decoration: none;
+}
+
+h3 {
+    font-family: Roboto;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 2%;
+}
+
+.content-list{
+    font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+}
+
+h2 {
+    font-family: Roboto;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 2%;
+        text-align: center;
+}
+
+.team-list .p {
+    font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: center;
+}
+
+.portfolio-list .p {
+    font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        text-align: center;
+}
+
+.footer-text {
+    font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+}
+
+.under-title{
+    font-family: Raleway;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 3%;
+        vertical-align: middle;
+        text-transform: uppercase;
+        color: #F4F4FD;
+        text-decoration: none;
+}
