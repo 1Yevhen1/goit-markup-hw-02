@@ -19,7 +19,7 @@ body {
         text-align: center;
 }
 
-.span-studio {
+.studio {
     color: #2e2f42;
 }
 
@@ -30,6 +30,10 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 
+}
+
+.list-studio:focus {
+    color: #404bbf;
 }
 
 .list-studio:hover {
@@ -57,7 +61,6 @@ ul {list-style-type: none}
 .nav-list .span:active {
     color: #404bbf;
         text-decoration: none;
-        text-underline-offset: 10px;
 }
 
 
@@ -79,6 +82,7 @@ ul {list-style-type: none}
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        color: #434455;
 }
 
 .gmail:focus {
@@ -103,11 +107,10 @@ ul {list-style-type: none}
 
 .main-header {
     font-family: Roboto;
-        line-height: 1.07;
         font-weight: 700;
         font-size: 56px;
-        line-height: 60px;
         letter-spacing: 2%;
+        line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
@@ -249,6 +252,8 @@ font-family: Roboto;
         color: #434455;
 }
 
+/* footer */
+
 .footer {
     background-color: #2e2f42;
         padding: 20px 0;
@@ -276,7 +281,7 @@ font-family: Roboto;
         text-decoration: none;   
 }
 
-.span-studio {
+.two-studio {
     color: #f4f4fd;
     letter-spacing: 0.02em
 }
