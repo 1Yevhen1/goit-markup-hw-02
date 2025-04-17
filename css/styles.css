@@ -19,8 +19,13 @@ body {
         text-align: center;
 }
 
-span {
-color: #2e2f42;
+.list-studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;   
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
 }
 
 ul {list-style-type: none}
@@ -37,12 +42,12 @@ ul {list-style-type: none}
 }
 
 .nav-list a:hover {
-    color: #404BBF;
+    color: #404bbf;
         text-decoration: none;
 }
 
 .nav-list .span:active {
-    color: #404BBF;
+    color: #404bbf;
         text-decoration: none;
         text-underline-offset: 10px;
 }
@@ -51,6 +56,7 @@ ul {list-style-type: none}
 
 .contact-info a {
     font-family: Roboto;
+    font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -60,7 +66,7 @@ ul {list-style-type: none}
         color: #434455;
 }
 
-.contact-info .gmail {
+.gmail {
     font-family: Roboto;
         font-weight: 400;
         font-size: 16px;
@@ -73,7 +79,7 @@ ul {list-style-type: none}
         text-decoration: none;
 }
 .contact-info a:hover {
-    color: #404BBF;
+    color: #404bbf;
         text-decoration: none;
 }
 
@@ -84,8 +90,9 @@ ul {list-style-type: none}
     background-color: #2e2f42;
 }
 
-.h1 {
+.main-header {
     font-family: Roboto;
+        line-height: 1.07;
         font-weight: 700;
         font-size: 56px;
         line-height: 60px;
@@ -124,8 +131,25 @@ ul {list-style-type: none}
     outline: none;
         box-shadow: 0 0 0 2px #404BBF;
         text-decoration: none;
+        background-color: #404BBF;
 }
 /* second section */
+
+.header-third {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text-content {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 
 .header-our-team {
     font-family: Roboto;
@@ -136,7 +160,7 @@ ul {list-style-type: none}
         color: #434455;
 }
 
-.content-list h3 {
+.content-list {
     font-family: Roboto;
         font-weight: 700;
         font-size: 20px;
@@ -153,28 +177,40 @@ ul {list-style-type: none}
         letter-spacing: 2%;
 }
 
+/* third section */
+
 /* our team */
 .our-team-section {
     background-color: #F4F4FD
 }
-h2 {
+.header-our-team {
 font-family: Roboto;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
-.team-list .p {
+.team-list-mark {
+    background-color: #FFFFFF;
+}
+
+.paragraph-team {
     font-family: Roboto;
         font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 2%;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize; 
         color: #434455;
+        background-color: #FFFFFF;
     }
+
+    /* soction four */
+
 .header-our-potfolio {
     font-family: Roboto;
         font-weight: 700;
